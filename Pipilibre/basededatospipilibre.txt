@@ -4,7 +4,7 @@ USE Lospipislibres;
 
 CREATE TABLE usuario(
     id_usuario int AUTO_INCREMENT primary key not null,
-    Nombre varchar(15) not null,
+    Nombre varchar(15) not null unique,
     correo_eletronico varchar(100) not null,
     contraseña VARCHAR(255) not null,
     saldo decimal(20,2) default 0
