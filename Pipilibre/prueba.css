@@ -1,0 +1,20 @@
+
+.imagen_usuario_inside{
+    height: 75px;
+
+}
+
+.nombre_usuario_inside{
+    position: right;
+}
+.conteiner_usuario_arriba{
+    height: 75px;
+    display: flex; 
+    align-items: center; 
+     gap: 20px;
+}
+.nombre_usuario{
+    color: #fffb04;
+    
+
+}
